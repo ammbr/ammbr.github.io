@@ -64,7 +64,7 @@ function showSlides(n) {
   if (slides[slideIndex-1] != undefined) {
 
 	  slides[slideIndex-1].style.display = "block";
-	  dots[slideIndex-1].className += " active";
-	  captionText.innerHTML = dots[slideIndex-1].alt;
+	  //dots[slideIndex-1].className += " active";
+	  //captionText.innerHTML = dots[slideIndex-1].alt;
   }
 }
