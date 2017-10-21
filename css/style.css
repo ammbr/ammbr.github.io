@@ -91,7 +91,6 @@ section .margin-map {
 }
 #gmap_canvas {
 	height:410px;
-	width:721px;
 }
 #gmap_canvas img {
 	max-width:none!important;background:none!important
