@@ -58,6 +58,9 @@ section h2 {
 section .carousel {
     height: 470px;
 }
+section .carousel img {
+    height: 100%;
+}
 section .news {
     background-color: rgb(146,208,80);
     border-radius: 5px;
@@ -282,8 +285,9 @@ img.hover-shadow {
   -webkit-transform: scale(1.03, 1.03);
   transform: scale(1.03, 1.03);
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .navbar-collapse {
-      flex-basis: unset;
+      position: absolute;
+      left: 695px;
   }
 }

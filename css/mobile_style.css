@@ -6,10 +6,15 @@
   section .carousel {
     height: 100%;
   }
+  .navbar-collapse {
+      position: absolute;
+      left: 527px;
+  }
 }
 @media only screen and (max-width: 991px) {
   nav button {
     margin-right: 45px;
+    margin-top: -62px;
   }
   .navbar-light .navbar-toggler {
   background-color: rgb(146,208,80);
@@ -27,7 +32,7 @@
 }
 @media only screen and (max-width: 425px) {
   header button {
-    margin-right: 0;
+    margin-right: -23%;
   }
   section .news {
     width: 100%;
