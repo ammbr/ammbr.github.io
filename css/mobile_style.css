@@ -30,8 +30,8 @@
     margin-right: 0;
   }
   section .news {
-    width: 403px;
-    height: 504px;
+    width: 100%;
+    height: 528px;
     margin-top: 13px;
   }
   footer p {
