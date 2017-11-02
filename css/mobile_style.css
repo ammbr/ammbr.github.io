@@ -19,6 +19,9 @@
   .navbar-light .navbar-toggler {
   background-color: rgb(146,208,80);
   }
+  .navbar-collapse {
+      position: inherit;
+  }
   section .news {
     width: 224px;
     height: 576px;
