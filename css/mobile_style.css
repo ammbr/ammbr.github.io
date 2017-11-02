@@ -35,12 +35,13 @@
   }
 }
 @media only screen and (max-width: 767px) {
-   footer p {
-    margin-top: -8px;
-    margin-left: 26%;
+  footer p {
+    position: relative;
+    top: -62px;
+    right: -18%;
   }
-   footer a img {
-    margin-top: -63px;
+  footer a img {
+    margin-top: -129px;
   }
 }
 @media only screen and (max-width: 425px) {
