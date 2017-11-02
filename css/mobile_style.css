@@ -34,6 +34,15 @@
     margin-left: 0;
   }
 }
+@media only screen and (max-width: 767px) {
+   footer p {
+    margin-top: -8px;
+    margin-left: 26%;
+  }
+   footer a img {
+    margin-top: -63px;
+  }
+}
 @media only screen and (max-width: 425px) {
   header button {
     margin-right: -9%;
