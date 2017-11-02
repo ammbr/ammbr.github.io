@@ -21,6 +21,7 @@
   }
   .navbar-collapse {
       position: inherit;
+      left: 0;
   }
   section .news {
     width: 224px;
